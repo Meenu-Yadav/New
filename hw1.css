@@ -106,7 +106,3 @@ td:hover{
 	opacity: 1;
 }
 
-tr:nth-child(odd){
-	background-color: #f2f2f2;
-	
-}
