@@ -1,0 +1,112 @@
+body{
+	padding: 2%;
+	margin:1%;
+}
+header{
+	background: #666666;
+	background-image: url("../images/hw2.jpg");
+	height: 12%;
+	padding: 1%;
+	text-align: center;
+	
+
+}
+
+nav a{ 
+	display: inline-block;
+	width: 15%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	height:20%;
+	font-variant: small-caps;
+	font-family: Arial, "Times New Roman", serif;
+	font-size: 150%;
+	text-decoration: none;
+	margin-right: 7%;
+	background : rgba(255,255,255,0.3);
+	border-radius: 15px;
+	
+}
+.active{
+	background :#ffffff;
+	
+}
+
+.left{
+	background:#588019;
+	width: 15%;
+	float: left;
+	align-content: center;
+	padding-bottom: 10%;
+	
+}
+.right{
+	margin-left: 10%;
+	padding-left: 7%;
+}
+
+img{
+	display: block;
+	width: 80%;
+	height:30%;
+	border: 3% solid #000000;
+	margin: auto; 
+	margin-top: 17%;
+
+
+}
+
+h1{
+	color: #FFFFFF;
+	text-align: center;
+	text-transform:uppercase;
+}
+
+h2{
+	color: #EC7D7D;
+	text-transform:uppercase;
+}
+
+table,th,td{
+	border: 3px solid #ffffff;
+	border-collapse: collapse;
+	text-align: center;
+	color: #000000;	
+}
+
+th{	border-radius: 10px 10px 0 0;
+	height:30px;
+	background-image: linear-gradient(#588019,#8ac62b,rgb(147 190 42));
+	color: #ffffff;
+	border-width: 3px 3px 5px 3px;
+	 
+}
+
+td{
+	opacity: .8;
+	height: 20px;
+	font-family: Arial, "Times New Roman", serif;
+	font-size: 70%;
+}
+
+th:first-child{
+	text-align: left;
+
+
+
+}
+
+td:first-child{
+	text-align: left;
+	width: 65%;
+
+}
+
+td:hover{
+	opacity: 1;
+}
+
+tr:nth-child(odd){
+	background-color: #f2f2f2;
+	
+}
